@@ -1,2 +1,0 @@
-Cycle Detected! 
-The loop exists.

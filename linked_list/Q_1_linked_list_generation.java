@@ -1,4 +1,4 @@
-package linked_list;
+package DSARevisionLearning.linked_list;
 
 public class Q_1_linked_list_generation {
     public static void main(String args[]){
