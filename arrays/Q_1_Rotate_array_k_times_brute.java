@@ -7,15 +7,18 @@ public class Q_1_Rotate_array_k_times_brute {
         int arr[]={1,2,3,4,5};
         int k=2; int n=arr.length;
         k=k%n;
+       
         for(int rot=0;rot<k;rot++){
-             int temp=arr[n-1];
-                for(int i=n-1;i>0;i--){
+            int temp=arr[n-1];
+            for (int i=n-1;i>0;i--){
             arr[i]=arr[i-1];
+           }
+             arr[0]=temp;
         }
-        arr[0]=temp;
+        System.out.println("Rotated Array : k times");
         System.out.println(Arrays.toString(arr));
-
-             }
+       
+        
         }
     
 }
