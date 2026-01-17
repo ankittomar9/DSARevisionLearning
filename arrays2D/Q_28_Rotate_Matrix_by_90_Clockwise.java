@@ -1,7 +1,5 @@
 package DSARevisionLearning.arrays2D;
-
 import java.util.Arrays;
-
 public class Q_28_Rotate_Matrix_by_90_Clockwise {
     public static void main(String args[]){
         int matrix[][]={{1,2,3},{4,5,6},{7,8,9}};
@@ -17,8 +15,8 @@ public class Q_28_Rotate_Matrix_by_90_Clockwise {
                 matrix[j][i]=temp;
             }
         }
+         System.out.println("Matrix after transpose");
         System.out.println(Arrays.deepToString(matrix));
-
         //reverse the rows
         for(int row=0;row<n;row++){
               int left=0;int right=m-1;
@@ -28,10 +26,8 @@ public class Q_28_Rotate_Matrix_by_90_Clockwise {
             matrix[row][right]=temp;
             left++;right--;
         }
-        }
-      
-           System.out.println("Matrix after rotation");
+     }
+           System.out.println("\nMatrix after rotation");
           System.out.println(Arrays.deepToString(matrix));
-    }
-    
+    }    
 }
