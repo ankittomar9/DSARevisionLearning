@@ -2,21 +2,22 @@ package DSARevisionLearning.arrays;
 
 public class Q_43_Subarray_Sum_SW_brute {
     public static void main(String args[]){
-        int arr[]={1,2,3,4,5};
+        int arr[] = {2, 1, 5, 1, 3, 2};
         int k=3;        int n=arr.length;
         if(n==0){        System.out.println("Array is Empty");  return;        }
-        int currentSum=0;
+        
+        int maxSum=Integer.MIN_VALUE;
 
-        for(int i=0;i<n-k;i++){
-            currentSum=currentSum+arr[i];
-        }
+        for(int i=0;i<=n-k;i++){
+                int currentSum=0;
+            for(int j=i;j<i+k;j++){
+                currentSum=currentSum+arr[j];
+            }
 
-        int s=0;int e=k-1;
-        while(s<e){
-            
-            s++;
-            e++;
+            maxSum=Math.max(maxSum, currentSum);
         }
+        System.out.println("Maximum Subarray sum of k window : "+maxSum);
+      
 
     }
     
