@@ -9,13 +9,13 @@ public class Q_43_Subarray_Sum_SW_Optimized {
             currentSum=currentSum+arr[i];
         }
         int maxSum=currentSum;
-
+        //step 2 slide the window and add incoming and remove outgoing
         for(int i=k;i<n;i++){
             currentSum=currentSum+arr[i]-arr[i-k];
 
             maxSum=Math.max(currentSum, maxSum);
         }
-        System.out.println("maximum subarray sum of window k is :"+maxSum);
+        System.out.println("maximum subarray sum of window k is \n:"+maxSum);
     }
     
 }
