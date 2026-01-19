@@ -16,7 +16,7 @@ public class Q_43_Subarray_Sum_SW_brute {
 
             maxSum=Math.max(maxSum, currentSum);
         }
-        System.out.println("Maximum Subarray sum of k window : "+maxSum);
+        System.out.println("Maximum Subarray sum of k window : \n"+maxSum);
       
 
     }
