@@ -1,1 +1,1 @@
-maximum Subarray (3,8) is : 6
+Average is : 5.0
