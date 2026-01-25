@@ -3,8 +3,10 @@ import java.util.HashMap;
 public class Q_6_Find_First_Non_Repeating_Element {
     public static void main(String args[]){
         int arr[]={9,6,9,7,6,4,7};
+        if(arr.length==0){
+              System.out.println("Empty array " );return;
+        }
         boolean isFound=false;
-
         HashMap<Integer,Integer> map=new HashMap<>();
 
         for(int i=0;i<arr.length;i++){
@@ -26,7 +28,5 @@ public class Q_6_Find_First_Non_Repeating_Element {
         if(!isFound){
              System.out.println("No first non repeating elements"); 
         }
-
     }
-    
 }
