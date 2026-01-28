@@ -12,7 +12,8 @@ public class Q_11_Count_Distinct_elements {
         for(int i=0;i<arr.length;i++){
             set.add(arr[i]);
     }
-         System.out.println(set); // in set ordered is not maintained use treeSet
+         System.out.println("Unique element : "+set); // in set ordered 
+         // is not maintained use treeSet
     
     }
 }
