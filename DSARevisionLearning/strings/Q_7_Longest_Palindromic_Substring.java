@@ -15,7 +15,6 @@ public class Q_7_Longest_Palindromic_Substring {
             System.out.println("Longest Palindrome: " + s.substring(start, start + maxLen));
        
     }
-
     public static void  expandHelper(String s,int left ,int right){
         while(left>=0 && right<s.length() && s.charAt(left) == s.charAt(right)){
 
@@ -27,7 +26,5 @@ public class Q_7_Longest_Palindromic_Substring {
             maxLen = currentLen;
             start = left + 1;
         }
-
-    }
-    
+    }    
 }
