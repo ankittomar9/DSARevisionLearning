@@ -1,1 +1,4 @@
-Average is : 5.0
+Original number :25
+Modified number after
+ Unsetting last 3 bits 
+ :17
