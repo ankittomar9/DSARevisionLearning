@@ -1,5 +1,4 @@
 package DSARevisionLearning.strings;
-
 public class Q_1_Strings_to_lower_case {
     public static void main(String args[]){
       /*Goal  is to convert the UpperCase string to lowerCase */
@@ -20,7 +19,6 @@ public class Q_1_Strings_to_lower_case {
         String s2=new String(arr);
 
         System.out.print("\nConverted to lowerCase\n"+s2);
-
     }
     
 }
