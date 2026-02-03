@@ -8,8 +8,6 @@ public class Q_3_Toggle_case_Lower_Upper_case {
             System.out.println("Empty String or Null String");return;
         }
          char arr[]=s1.toCharArray();
-
-
         for(int i=0;i<arr.length;i++){
             if(arr[i]>='a' && arr[i]<='z'){
                 arr[i]=(char)(arr[i]-32);
