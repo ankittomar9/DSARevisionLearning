@@ -1,5 +1,4 @@
 package DSARevisionLearning.strings;
-
 public class Q_3_1_Toggle_case_Lower_Upper_case_CountChars {
     public static void main(String args[]){
          String s1="ankit_doing_JAVA_DSA_lEARNING";
@@ -16,8 +15,7 @@ public class Q_3_1_Toggle_case_Lower_Upper_case_CountChars {
                upperCount++;
             }else if(arr[i]>='A' && arr[i]<='Z') {
                 arr[i]=(char)(arr[i]+32);    
-               
-                  lowerCount++;
+                lowerCount++;
             }
         }
            String s2=new String(arr);
