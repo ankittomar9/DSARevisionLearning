@@ -1,6 +1,7 @@
 package DSARevisionLearning.recursion;
 
 public class Q_2_Print_1_to_N_Numbers {
+      /*Print from from 1 to N */
     public static void main(String args[]){
         int n=10;
         printHelper_1_to_N_helper(n);
