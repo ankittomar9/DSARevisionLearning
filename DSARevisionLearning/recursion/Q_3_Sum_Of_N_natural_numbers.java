@@ -17,3 +17,8 @@ public class Q_3_Sum_Of_N_natural_numbers {
     }
     
 }
+
+/*
+TC:O(n)
+SC:O(n) because of call stack recursion takes 
+*/
