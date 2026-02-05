@@ -20,6 +20,8 @@ public class Q_6_Reverse_Number_Using_Recursion_v2 {
             long reduce=n/10;
 
             return reverseHelper(reduce,newReverse);
-    }
-    
+    }    
 }
+/*TC: O(log N) or O(digits)
+  SC:O(log N) (Stack)
+*/
