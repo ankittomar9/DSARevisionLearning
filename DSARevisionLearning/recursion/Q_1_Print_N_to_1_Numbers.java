@@ -5,6 +5,7 @@ public class Q_1_Print_N_to_1_Numbers {
     /*Print from from N to 1 */
     public static void main(String args[]){
         int n=10;
+        System.out.println("The numbers from N to 1 are : ");
         n_to_1_print_Helper(n);
     
     }
@@ -17,3 +18,7 @@ public class Q_1_Print_N_to_1_Numbers {
 
     }
 }
+/*
+TC:O(n)
+SC:O(n) because of call stack recursion takes 
+*/
