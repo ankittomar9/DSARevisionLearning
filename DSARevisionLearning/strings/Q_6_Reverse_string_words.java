@@ -28,11 +28,7 @@ public class Q_6_Reverse_string_words {
             char temp=arr[i];
             arr[i]=arr[j];
             arr[j]=temp;
-            i++;
-            j--;
-           } 
-            
-           
+            i++;            j--;
+           }            
         }
-    
 }
