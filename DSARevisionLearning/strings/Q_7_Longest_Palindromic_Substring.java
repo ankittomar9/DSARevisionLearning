@@ -16,7 +16,8 @@ public class Q_7_Longest_Palindromic_Substring {
        
     }
     public static void  expandHelper(String s,int left ,int right){
-        while(left>=0 && right<s.length() && s.charAt(left) == s.charAt(right)){
+        while(left>=0 && right<s.length()
+             && s.charAt(left) == s.charAt(right)){
 
             left--;right++;
         }
