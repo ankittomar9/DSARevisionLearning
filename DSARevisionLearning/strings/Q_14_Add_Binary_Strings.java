@@ -1,6 +1,7 @@
 package DSARevisionLearning.strings;
 
 public class Q_14_Add_Binary_Strings {
+    /*Add two Binary Strings */
     public static void main(String args[]){
         String A="110";String B="10";
         int i=A.length()-1;int j=B.length()-1;
