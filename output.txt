@@ -1,1 +1,4 @@
-Sum: 1000
+Original Array 
+ [4, 1, 5, 2, 3, 7, 9]
+Sorted array asc 
+[1, 2, 3, 4, 5, 7, 9]
