@@ -2,7 +2,7 @@ package java_interviews.companies_based_questions.solutions;
 
 public class Q_5_Reverse_number {
         public static void main(String args[]){
-            int n= 123;
+            int n= -123; // code works for negative case
                System.out.println("Original Number : "+n);
             int result=reverseHelper(n);
                    System.out.println("Reverse Number : "+result);
