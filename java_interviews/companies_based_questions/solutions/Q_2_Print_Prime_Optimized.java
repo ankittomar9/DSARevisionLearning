@@ -8,6 +8,10 @@ public class Q_2_Print_Prime_Optimized {
         printPrimeSieve(n);
          }
          public static void printPrimeSieve(int n){
+            if (n < 2) {
+        System.out.println("No primes up to " + n);
+        return;
+    }
             boolean[] isPrime=new boolean[n+1];
 
             Arrays.fill(isPrime, true);
