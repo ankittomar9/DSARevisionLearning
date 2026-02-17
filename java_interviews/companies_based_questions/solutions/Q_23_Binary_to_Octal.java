@@ -3,16 +3,14 @@ public class Q_23_Binary_to_Octal{
     public static void main(String args[]){
         int binary=101001;
 /*Convert a Binary number (Base 2) to an Octal number (Base 8).
-        Input: 101001 (Binary)Bridge (Decimal):
+        Input: 101001 (Binary)  Bridge (Decimal):
         32 + 8 + 1 = 41 Output: 51 (Octal) */
         int decimal =convertBinaryToDecimal(binary);
-
         int octal= convertDecimalToOctal(decimal);
         System.out.println("Binary " + binary + " in Octal is: " + octal);
     }
     public static int convertBinaryToDecimal(int n){
-        int decimal=0;
-        int base=1;
+        int decimal=0;         int base=1;
 
         while(n>0){
             int lastDigit=n%10;
@@ -23,8 +21,7 @@ public class Q_23_Binary_to_Octal{
         return decimal;
     }
     public static int convertDecimalToOctal(int n){
-        int octal=0;
-        int place=1; 
+        int octal=0;         int place=1; 
     
         while(n>0){
             int remainder=n%8;
