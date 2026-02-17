@@ -1,5 +1,4 @@
 package java_interviews.companies_based_questions.solutions;
-
 public class Q_16_LCM_of_two_numbers_optimized {
     public static void main(String args[]){
         int a=12;// 
