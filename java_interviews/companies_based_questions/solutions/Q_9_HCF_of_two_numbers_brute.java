@@ -1,5 +1,4 @@
 package java_interviews.companies_based_questions.solutions;
-
 public class Q_9_HCF_of_two_numbers_brute {
     public static void main(String args[]){
         //HCF is aslo called GCD  
@@ -8,7 +7,7 @@ public class Q_9_HCF_of_two_numbers_brute {
         int n2=30;
 
         int hcf=findGCDBrute(n1,n2);
-         System.out.println("GCD of " + n1 + " and " + n2 + " is: " + hcf);
+         System.out.println("GCD /HCF  of " + n1 + " and " + n2 + " is: " + hcf);
     }
     public static int findGCDBrute(int n1,int n2){
        int min=Math.min(n1, n2);
@@ -20,7 +19,6 @@ public class Q_9_HCF_of_two_numbers_brute {
         }
        }
        return 1;
-       
     }
     
 }
