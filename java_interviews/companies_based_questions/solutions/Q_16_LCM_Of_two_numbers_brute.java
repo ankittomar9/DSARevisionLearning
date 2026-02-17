@@ -6,13 +6,11 @@ public class Q_16_LCM_Of_two_numbers_brute{
         int b=15;
         lcm_helper(a,b);
     }
-
     public static void lcm_helper(int a ,int b){
         if (a == 0 || b == 0) {
             System.out.println("LCM is 0");
             return;
         }
-
        int lcm=0;
        int range=a*b;
         for(int i=1;i<=range;i++){
