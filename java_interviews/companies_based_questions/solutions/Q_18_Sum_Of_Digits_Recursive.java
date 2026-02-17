@@ -7,7 +7,6 @@ public class Q_18_Sum_Of_Digits_Recursive {
 
        System.out.println("Sum of Digits is : \n"+result);
     }
-
     public static int digits_helper_Recursive(int n){
         if(n<=0){            return 0;
         }
@@ -20,6 +19,4 @@ public class Q_18_Sum_Of_Digits_Recursive {
 
         return result+sum;
     }
-
-    
 }
