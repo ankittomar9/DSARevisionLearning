@@ -1,5 +1,4 @@
 package java_interviews.companies_based_questions.solutions;
-
 public class Q_11_Check_if_a_number_is_a_Perfect_Number {
     public static void main(String args[]){
         /*A number is Perfect if the sum of its divisors
@@ -8,7 +7,6 @@ public class Q_11_Check_if_a_number_is_a_Perfect_Number {
             int n=28;
             perfectNumberHelper(n);
         }
-
         public static void perfectNumberHelper(int n){
             if(n<=1){
               System.out.println(n + " is NOT a Perfect Number"); return ;            }
