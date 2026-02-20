@@ -1,5 +1,4 @@
 package java_interviews.companies_based_questions.solutions;
-
 public class Q_3_armstrong_Generalised_to_power_N {
     public static void main(String args[]){
         int n=1634;
@@ -19,13 +18,9 @@ public class Q_3_armstrong_Generalised_to_power_N {
         int numberofDigits=String.valueOf(n).length();
         while(n>0){
             int lastDigit=n%10;
-
             sum=(int) (sum+Math.pow(lastDigit, numberofDigits));
-
             n=n/10;
         }
-
-
         return sum==original_number;
     }
 }
