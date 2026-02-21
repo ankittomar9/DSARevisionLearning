@@ -1,7 +1,7 @@
 package java_interviews.companies_based_questions.solutions;
 public class Q_6_Check_If_Number_is_Palindrome {
         public static void main(String args[]){
-            int n=-121;
+            int n=121;  
              System.out.println("original number : "+n);
             boolean result =palindromeChecker(n);
             
