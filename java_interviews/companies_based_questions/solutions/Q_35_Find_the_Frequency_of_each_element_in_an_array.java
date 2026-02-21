@@ -1,7 +1,5 @@
 package java_interviews.companies_based_questions.solutions;
-
 import java.util.HashMap;
-
 public class Q_35_Find_the_Frequency_of_each_element_in_an_array {
     public static void main(String args[]){
         int arr[]={10, 20, 20, 10, 10, 30};
@@ -15,8 +13,16 @@ public class Q_35_Find_the_Frequency_of_each_element_in_an_array {
         
         for(int i=0;i<arr.length;i++){
             if(freqMap.containsKey(arr[i])){
-                freqMap.put(arr[i], i)
+                freqMap.put(arr[i], freqMap.get(arr[i])+1);
+            }else{
+                freqMap.put(arr[i], 1);
             }
+        }
+        System.out.println(freqMap);
+
+        System.out.println("Frequency Counts:");
+          for (Integer key : freqMap.keySet()) {
+            System.out.println(key + " appears " + freqMap.get(key) + " times");
         }
     }
 }
