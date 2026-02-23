@@ -14,7 +14,7 @@ public class Q_31_Sum_Of_Elements_Array {
             sum=sum+arr[(int) i];
         }
 
-        System.out.println(sum);
+        System.out.println("Sum of All Array Elements : \n"+sum);
     }
     
 }
