@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class Q_34_Sort_an_array_without_using_inbuilt_Library {
     public static void main(String args[]){
         int arr[]={5,1,4,2,8};
-         System.out.println("Before sort"+Arrays.toString(arr));
+         System.out.println("Before sort \n"+Arrays.toString(arr));
         bubbleSortHelper(arr);    
-          System.out.println("Sorted array"+Arrays.toString(arr));
+          System.out.println("Sorted array \n"+Arrays.toString(arr));
     }
     public static void bubbleSortHelper(int arr[]){
        if(arr==null || arr.length==0){return;}
@@ -24,8 +24,6 @@ public class Q_34_Sort_an_array_without_using_inbuilt_Library {
                 System.out.println("Array sorted early! Breaking at pass: " + (i + 1));
                 break;
             }
-         }  
- 
-    }
-   
+         }   
+    }   
 }
