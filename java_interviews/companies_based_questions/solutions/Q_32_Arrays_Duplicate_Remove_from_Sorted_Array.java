@@ -1,7 +1,5 @@
 package java_interviews.companies_based_questions.solutions;
-
 import java.util.Arrays;
-
 public class Q_32_Arrays_Duplicate_Remove_from_Sorted_Array{
     public static void main(String args[]){
         int[] arr = {1, 1, 2, 2, 3, 4, 4};
@@ -13,7 +11,6 @@ public class Q_32_Arrays_Duplicate_Remove_from_Sorted_Array{
             System.out.print(arr[i] + " ");
         }
     }
-
     public static int removeDuplicates(int[] arr){
         if(arr==null || arr.length==0){return 0;}
         int j=0;
