@@ -1,11 +1,13 @@
 package java_interviews.companies_based_questions.solutions;
+import java.util.Arrays;
 import java.util.HashSet;
 /*Question 42: Check if Two Arrays are Disjoint */
 public class Q_42_Disjoint_array_Check {
     public static void main(String args[]){
         int[] arr1 = {12, 34, 11, 9};
         int[] arr2 = {72, 85, 90}; // Change 85 to 11 to test the false case
-        
+          System.out.println("Array 1: \n" + Arrays.toString(arr1));
+            System.out.println("Array 2: \n" + Arrays.toString(arr2));
         if (areDisJoint(arr1, arr2)) {
             System.out.println("The arrays are Disjoint (No common elements).");
         } else {
