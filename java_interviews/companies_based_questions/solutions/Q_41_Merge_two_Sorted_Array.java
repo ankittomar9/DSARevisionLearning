@@ -3,9 +3,11 @@ import java.util.Arrays;
 public class Q_41_Merge_two_Sorted_Array {
     public static void main(String args[]){
         int arr1[]={1,3,5};        int arr2[]={2,4,6,8};
+         System.out.println("Original Array 1: \n" + Arrays.toString(arr1));
+          System.out.println("Original Array 1: \n" + Arrays.toString(arr2));
         //Output [1,2,3,4,5,6,8]
         int[] merged=mergeArrays(arr1,arr2);
-        System.out.println("Merged Array: " + Arrays.toString(merged));
+        System.out.println("Merged Array: \n" + Arrays.toString(merged));
     }
     public static int[] mergeArrays(int[] arr1,int[] arr2  ){
         if(arr1==null || arr1.length==0)return arr2;
