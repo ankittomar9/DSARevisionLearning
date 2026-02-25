@@ -10,9 +10,7 @@ public class Q_33_Sort_Half_Asc_Half_Desc {
     public static void customSortHelper(int arr[]){
         int n=arr.length;
         int mid=n/2;
-
         Arrays.sort(arr,0,mid);
-
         Arrays.sort(arr,mid,n);
         reverseSubArray(arr, mid, n - 1);
     }
