@@ -1,3 +1,2 @@
-Array: [1, 2, 3, -1, 4]
-Target: 5
-Total valid sub-arrays found: 2
+Array : [-7, 1, 5, 2, -4, 3, 0]
+Equilibrium found at index: 3
