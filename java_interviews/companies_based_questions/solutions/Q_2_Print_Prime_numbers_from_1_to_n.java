@@ -25,3 +25,6 @@ public class Q_2_Print_Prime_numbers_from_1_to_n {
         System.out.println("Primes numbers between 1 to n are  \n"+list);
     }    
 }
+
+/*TC : O(n^2)
+    SC: O(n) because of list */
