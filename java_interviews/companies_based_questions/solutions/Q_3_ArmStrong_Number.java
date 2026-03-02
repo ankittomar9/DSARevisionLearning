@@ -23,3 +23,6 @@ public class Q_3_ArmStrong_Number {
             return sum==original_Number;
     }
 }
+
+/*TC : O(n) this code doesn't work for 4 digit limit
+    SC: O(1) */
