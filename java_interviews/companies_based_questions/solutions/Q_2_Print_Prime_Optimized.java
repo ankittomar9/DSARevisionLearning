@@ -33,3 +33,6 @@ public class Q_2_Print_Prime_Optimized {
             System.out.println("Primes up to " + n + ": " + primeNumbers);
          }    
 }
+
+/*TC : O(n) Sieve of Eras
+    SC: O(n) */
