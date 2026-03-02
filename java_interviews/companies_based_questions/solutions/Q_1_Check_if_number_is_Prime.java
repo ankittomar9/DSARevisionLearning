@@ -25,3 +25,5 @@ public class Q_1_Check_if_number_is_Prime {
     }
     
 }
+/*TC : O(n)
+    SC: O(1) */
