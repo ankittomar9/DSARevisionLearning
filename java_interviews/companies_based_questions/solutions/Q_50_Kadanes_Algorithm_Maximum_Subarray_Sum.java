@@ -9,7 +9,6 @@ public class Q_50_Kadanes_Algorithm_Maximum_Subarray_Sum {
         int max=findMaxSubarraySum(arr);
         System.out.println("\nMaximum Subarray Sum is: \n" + max);
         }
-
     public static int findMaxSubarraySum(int arr[]){
         if(arr==null || arr.length ==0) return 0;
 
