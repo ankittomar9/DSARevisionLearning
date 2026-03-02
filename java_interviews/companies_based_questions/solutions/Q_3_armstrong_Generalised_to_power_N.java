@@ -24,3 +24,6 @@ public class Q_3_armstrong_Generalised_to_power_N {
         return sum==original_number;
     }
 }
+
+/*TC : O(n)
+    SC: O(1) */
