@@ -1,2 +1,6 @@
-Array: [100, 4, 200, 1, 3, 2]
-Longest Consecutive Sequence Length: 4
+Original Array: 
+[0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+Unique Elements Count: 
+5
+Modified Array (Unique Part): 
+0 1 2 3 4 
