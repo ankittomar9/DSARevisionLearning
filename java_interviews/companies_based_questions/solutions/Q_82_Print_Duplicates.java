@@ -1,5 +1,4 @@
 package java_interviews.companies_based_questions.solutions;
-
 public class Q_82_Print_Duplicates {
     public static void main(String args[]){
         String s1="programming";
@@ -8,12 +7,9 @@ public class Q_82_Print_Duplicates {
         System.out.print("Modified String : \n");
         printDuplicate(s1);
     }
-
     public static void printDuplicate(String str){
         if(str==null || str.isEmpty()) return;
-
         int freq[]=new int[256];
-
         for(int i=0;i<str.length();i++){
             char ch=str.charAt(i);
             freq[ch]++;
