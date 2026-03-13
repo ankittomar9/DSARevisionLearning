@@ -1,7 +1,5 @@
 package dsa_jan_revision.arrayBasics;
-
 import java.util.Arrays;
-
 public class Q_1_Rotate_Array_k_times_optimized {
     public static void main(String args[]){
         int arr[]={1,2,3,4,5};
