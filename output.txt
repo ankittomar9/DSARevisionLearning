@@ -1,1 +1,11 @@
-Non Reapeted characterOptional[p]
+String: Hello
+length(): 5
+Actual characters: 5
+
+String: Hello?
+length(): 7
+Actual characters: 6
+
+String: ???
+length(): 6
+Actual characters: 3
