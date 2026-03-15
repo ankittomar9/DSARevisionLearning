@@ -1,6 +1,1 @@
-Original Array: 
-[0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
-Unique Elements Count: 
-5
-Modified Array (Unique Part): 
-0 1 2 3 4 
+Non Reapeted characterOptional[p]
