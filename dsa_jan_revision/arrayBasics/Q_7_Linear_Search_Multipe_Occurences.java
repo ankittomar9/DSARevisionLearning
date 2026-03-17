@@ -1,13 +1,9 @@
 package dsa_jan_revision.arrayBasics;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class Q_7_Linear_Search_Multipe_Occurences { 
     /*Q2. Linear Search - Multiple Occurences
-
     Given an array A and an integer B, find the number of occurrences of B in A. */
-
     public static void main(String args[]){
         int arr[]={10,99,12,3,4,3,66,3,2,3};
         int target=3;
