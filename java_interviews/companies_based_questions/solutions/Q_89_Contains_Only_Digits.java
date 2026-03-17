@@ -22,6 +22,4 @@ public class Q_89_Contains_Only_Digits {
         }
         return true;
         }
-
-       
 }
