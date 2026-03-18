@@ -8,7 +8,7 @@ public class Q_10_Arrays_Minimum_Pick {
         minimumPicksHelper(arr);
     }
     public static void minimumPicksHelper(int arr[]){
-        if(arr==null || arr.length==0){            System.out.println("Array is Empty or null  "); return;
+ if(arr==null || arr.length==0){ System.out.println("Array is Empty or null  "); return;
         }
         int maxEven=Integer.MIN_VALUE;  int minOdd=Integer.MAX_VALUE;
         for(int i=0;i<arr.length;i++){
