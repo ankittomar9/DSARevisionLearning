@@ -1,6 +1,9 @@
 package dsa_jan_revision.arrayBasics;
 
 public class Q_9_Time_To_Equality {
+    /*Given an integer array A of size N. In one second, you can increase the value of one element by 1.
+Find the minimum time in seconds to make all elements of the array equal.
+ */
     public static void main(String args[]){
         int arr[]={2,4,1,3,2};
         int result=solve(arr);
@@ -23,5 +26,4 @@ public class Q_9_Time_To_Equality {
          total_time=total_time-max;
          return total_time;
     }
-
 }
