@@ -27,8 +27,6 @@ public class Q_13_Arrays_Q_Queries_Sum_optimized {
                 sum=prefixArr[e]-prefixArr[s-1];
             }
                 System.out.println("Range ["+s + " ," + e+ "] Sum = "+sum);
-        }   
-
-    
+        }      
     }
 }
