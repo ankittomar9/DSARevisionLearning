@@ -33,8 +33,10 @@ public class Q_11_Multiple_left_rotation_Array {
         }
         return res;
     }
-    public static void rotateHelper(int[] arr, int start, int end) {
-        if (arr == null || arr.length == 0) return;
+    public static void rotateHelper(int[] arr,
+         int start, int end) {
+        if (arr == null || arr.length == 0) 
+            return;
         while (start < end) {
             int temp = arr[start];
             arr[start] = arr[end];
