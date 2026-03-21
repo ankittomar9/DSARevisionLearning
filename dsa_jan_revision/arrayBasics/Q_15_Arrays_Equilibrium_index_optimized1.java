@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Q_15_Arrays_Equilibrium_index_optimized1 {
     public static void main(String args[]){
         int arr[]={-7,1,5,2,-4,3,0};
-          System.out.println("Original Array "+Arrays.toString(arr));
+          System.out.println("Original Array \n"+Arrays.toString(arr));
         equilibriumIndexHelper(arr);
     }
     public static void equilibriumIndexHelper(int arr[]){
@@ -15,7 +15,7 @@ public class Q_15_Arrays_Equilibrium_index_optimized1 {
             prefixArr[i]=prefixArr[i-1]+arr[i];
         }
         int n=prefixArr.length;
-        System.out.println("Prefix Array "+Arrays.toString(prefixArr));
+        System.out.println("Prefix Array \n"+Arrays.toString(prefixArr));
         for(int i=0;i<arr.length;i++){
             //leftSum
             int leftSum=0;
@@ -25,7 +25,7 @@ public class Q_15_Arrays_Equilibrium_index_optimized1 {
                 leftSum=prefixArr[i-1];
             }
             // right Sum
-            int rightSum=0;
+            int rightSum=0; 
             int total_Sum=prefixArr[n-1];
             rightSum=total_Sum-prefixArr[i];
             if(leftSum == rightSum){
@@ -39,4 +39,4 @@ public class Q_15_Arrays_Equilibrium_index_optimized1 {
                 System.out.println("Equilibrium index Does not exists" );
              }
         }
-}
+    }
