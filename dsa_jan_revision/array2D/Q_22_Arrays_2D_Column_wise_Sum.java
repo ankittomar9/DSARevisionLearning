@@ -8,6 +8,7 @@ public class Q_22_Arrays_2D_Column_wise_Sum {
                     {5,6,7,8},
                     {9,10,11,12},
                     {13,14,15,16}};
+                     System.out.println("Original Matrix: " + Arrays.deepToString(arr));
         long colSums[]=columnRowSumHelper(arr);
         System.out.println("Column Wise Sum is : "+Arrays.toString(colSums));
     }
