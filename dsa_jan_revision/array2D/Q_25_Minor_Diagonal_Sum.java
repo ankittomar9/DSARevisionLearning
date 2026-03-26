@@ -8,16 +8,13 @@ public class Q_25_Minor_Diagonal_Sum {
         if(arr==null ||arr.length==0){return;}
         int n=arr.length; int m=arr[0].length;
            //Using Single while Loop         //See dimensions of minor diagonal
-        //(0 ,m-1),(n,m),(n-1,0)  (0,2),(1,1),(1,0)
-        //Using two Loops
+        //(0 ,m-1),(n,m),(n-1,0)  (0,2),(1,1),(1,0)        //Using two Loops
         long sum=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 if(i+j==n-1){
                     sum=sum+arr[i][j];
-                }
-            }
-        }
+                }            }        }
          System.out.println("Sum of Minor Diagonal : \n"+sum);
          //Using single loop
             long sum1=0;
@@ -25,7 +22,6 @@ public class Q_25_Minor_Diagonal_Sum {
             sum1=sum1+arr[j][n-1-j];
          }
            System.out.println("Sum of Minor Diagonal : \n"+sum1);
-    
            //Using single loop while loop 
            int a=0;int b=m-1; long sum2=0;
            while(b>=0){
