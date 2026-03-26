@@ -1,5 +1,4 @@
 package java_interviews.companies_based_questions.solutions;
-
 public class Q_99_Word_Wrap_Basic {
     public static void main(String args[]){
         String text="The quick brown fox jumps over the lazy dog";
@@ -22,6 +21,7 @@ public class Q_99_Word_Wrap_Basic {
                 sb.replace(sb.length()-1,sb.length(),"\n");
                 sb.append(word[i]).append(" ");
                 currentLength= word[i].length()+1;
+
             }else{
                 sb.append(word[i]).append(" ");
                 currentLength=currentLength+word[i].length()+1;
