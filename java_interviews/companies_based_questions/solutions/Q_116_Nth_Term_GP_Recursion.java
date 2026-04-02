@@ -10,7 +10,9 @@ public class Q_116_Nth_Term_GP_Recursion {
 
     }
     public static long nthTermGP(int a,int r,int N){
-        if(N==1){return a;}
+        if(N==1){
+            return a;
+        }
 
         return r*nthTermGP(a, r, N-1);
     }
