@@ -5,7 +5,7 @@ public class Q_6_Reverse_string_words {
            String s1="the sky is blue";
            System.out.println("Original String : \n"+s1);
         char arr[]=s1.toCharArray();
-        int start=0; int end=arr.length-1;
+        int start=0; int end=arr.length-1;   
 
         reverseStringHelper(arr,start,end);
          System.out.println(Arrays.toString(arr)); 
