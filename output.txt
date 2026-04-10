@@ -1,8 +1,7 @@
-Wrapped Text (Limit 10):
--------------------
-The quick
-brown fox
-jumps over
-the lazy
-dog
--------------------
+Alphabet Pyramid for N = 5:
+
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
