@@ -1,5 +1,4 @@
 package DSARevisionLearning.strings;
-
 public class Q_14_Add_Binary_Strings {
     /*Add two Binary Strings */
     public static void main(String args[]){
@@ -24,7 +23,6 @@ public class Q_14_Add_Binary_Strings {
             carry=sum/2; // 1+1=2 -> carry 1. 1+0=1 -> carry 0.
             int write=sum%2;// 2%2=0 (write 0). 3%2=1 (write 1).
             sb.append(write);
-      
         }
 
           // Result is backwards (LSB to MSB), so reverse it
