@@ -8,7 +8,6 @@ public class Q_11_Multiple_left_rotation_Array {
       
         int[][] result = solve(A, B);
         System.out.println("Final Result Matrix:");
-     
         for (int i=0; i<result.length; i++) {
             System.out.println("Rotation " + B[i] + ": " + Arrays.toString(result[i]));
         }
