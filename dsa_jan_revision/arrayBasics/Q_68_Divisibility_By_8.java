@@ -4,13 +4,11 @@ public class Q_68_Divisibility_By_8 {
     public static void main(String[] args) {
         System.out.println("Evaluating:\n \"16\"");
         System.out.println("Result: " + solve("16") + "\n");
-
         System.out.println("Evaluating:\n \"123\"");
         System.out.println("Result: " + solve("123") + "\n");
         
-        System.out.println("Evaluating Massive Number:\n \"888888888888888888888120\"");
+System.out.println("Evaluating Massive Number:\n \"888888888888888888888120\"");
         System.out.println("Result: " + solve("888888888888888888888120"));
-        
     }
     public static int solve(String s){
         if(s==null || s.length()==0){return 0;}
