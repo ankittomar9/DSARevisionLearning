@@ -3,13 +3,13 @@ package dsa_jan_revision.bitmanipulation;
 public class Q_1_Any_base_to_decimal {
     public static void main(String[] args) {
         int n1=1010; int b1=2;
-         System.out.println("Input n is : "+n1 + " and b is : "+b1); 
+         System.out.println("Input n is (binary): "+n1 + " and b is : "+b1); 
             anyBaseToDecimalHelper(n1, b1);
               int n2=22 ;int b2=3;
-            System.out.println("Input n is : "+n1 + " and b is : "+b2); 
+            System.out.println("Input n is (ternary): "+n2 + " and b is : "+b2); 
             anyBaseToDecimalHelper(n2, b2);
-              int n3=045 ;int b3=8;
-             System.out.println("Input n is : 045" + " and b is : "+b3); 
+              int n3=45 ;int b3=8;
+             System.out.println("Input n is (Octal ): " +n3+ " and b is : "+b3); 
             anyBaseToDecimalHelper(n3, b3);
           
     }
