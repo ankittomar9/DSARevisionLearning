@@ -11,8 +11,7 @@ public class Q_9_Interesting_array {
         Return "Yes" or "No".      */
         int arr[]={9,17};System.out.println("Evaluating Array:" +Arrays.toString(arr));
         solve(arr);  
-        int[] arr2 = {9, 17, 3};
-        System.out.println("Evaluating Array:" +Arrays.toString(arr2));
+        int[] arr2 = {9, 17, 3}; System.out.println("Evaluating Array:" +Arrays.toString(arr2));
         solve(arr2);
     }
     public static void solve(int arr[]){
