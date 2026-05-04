@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class Q_9_Interesting_array {
     public static void main(String[] args) {
-          /*The Problem You are given an array of numbers. You can perform the following operation any number of times:
+          /*The Problem You are given an array of numbers. 
+          You can perform the following operation any number of times:
         Pick any element v from the array.
         Remove it        Add two new numbers a and b to the array such that a + b = v.
         Goal: Can you make the XOR of all elements in the array equal to 0?
