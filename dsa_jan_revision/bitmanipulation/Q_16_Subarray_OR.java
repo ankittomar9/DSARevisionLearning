@@ -30,4 +30,6 @@ public class Q_16_Subarray_OR {
             long contribution=( goodSubarrays % mod * bitValue) %mod;
             ans=(ans +contribution)%mod;
         }
-        return (int) ans;    }   }
+        return (int) ans;   
+     } 
+  }
