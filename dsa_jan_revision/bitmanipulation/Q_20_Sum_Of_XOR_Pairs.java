@@ -1,7 +1,5 @@
 package dsa_jan_revision.bitmanipulation;
-
 import java.util.Arrays;
-
 public class Q_20_Sum_Of_XOR_Pairs {
     public static void main(String[] args) {
         int arr1[]={1,2,3};System.out.println("Original Array : \n"+Arrays.toString(arr1));
