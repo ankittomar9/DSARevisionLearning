@@ -24,7 +24,5 @@ public class Q_23_Counting_Bits {
             ans[i]=ans[i>>1]+(i & 1);
         }
         return ans;
-
-    }
-    
+    }    
 }
