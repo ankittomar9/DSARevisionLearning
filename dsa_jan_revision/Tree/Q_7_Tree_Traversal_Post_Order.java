@@ -17,9 +17,7 @@ public class Q_7_Tree_Traversal_Post_Order {
  }   
  public static List<Integer> postOrderTraversal(TreeNode root){
     List<Integer> result=new ArrayList<>();
-          if(root==null){
-           return result;
-          }
+          if(root==null){           return result;          }
           postOrderHelper(root,result);
              return result;
  }  
