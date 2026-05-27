@@ -1,7 +1,1 @@
-Alphabet Pyramid for N = 5:
-
-    A
-   ABA
-  ABCBA
- ABCDCBA
-ABCDEDCBA
+Minimum time to equality : 8
