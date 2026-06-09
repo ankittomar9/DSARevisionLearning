@@ -1,1 +1,3 @@
-Minimum time to equality : 8
+Array Rotation  : [5, 4, 3, 2, 1]
+Array Rotation : [3, 4, 5, 2, 1]
+Array Rotation Final : [3, 4, 5, 1, 2]
