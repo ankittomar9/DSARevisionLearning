@@ -1,5 +1,5 @@
 # Ignore the node_modules folder
-.vscode/
+#.vscode/
 
 # Ignore the logs folder
 out/*.class

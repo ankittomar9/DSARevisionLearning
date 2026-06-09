@@ -17,7 +17,6 @@ public class Q_1_Rotate_array_k_times_optimized {
         
         reverseHelper(arr, 0, k-1);
         System.out.println("Array Rotation : "+Arrays.toString(arr));
-
         
         reverseHelper(arr, k, n);
         System.out.println("Array Rotation Final : "+Arrays.toString(arr));
