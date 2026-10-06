@@ -1,3 +1,4 @@
-Array Rotation  : [5, 4, 3, 2, 1]
-Array Rotation : [3, 4, 5, 2, 1]
-Array Rotation Final : [3, 4, 5, 1, 2]
+ Original Array 
+[1, 2, 3, 4, 5]
+Array after  3 rotations 
+[3, 4, 5, 1, 2]
