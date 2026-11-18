@@ -1,4 +1,4 @@
- Original Array 
-[1, 2, 3, 4, 5]
-Array after  3 rotations 
-[3, 4, 5, 1, 2]
+Given number is  Prime : 19
+Given number is  not Prime : 8
+Given number is  Prime : 13
+0 and 1 are not  prime 
